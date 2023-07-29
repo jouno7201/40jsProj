@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+#tapBar {
+  width: 100vw;
+  height: 80px;
+
+  display: flex;
+}
+#tapBar div {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.active {
+  color: cornflowerblue;
+}
+#mainCotainer {
+  width: 100vw;
+  height: calc(100vh - 80px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#mainCotainer div {
+  min-width: 420px;
+  height: 60px;
+
+  padding: 0 10px;
+
+  background-color: rgb(59, 59, 59);
+  color: white;
+  font-size: 28px;
+  border-radius: 10px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainCotainer button {
+  background-color: transparent;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}

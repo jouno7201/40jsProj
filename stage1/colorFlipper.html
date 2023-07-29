@@ -4,8 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>colorFlip</title>
+    <link href="./main.css" rel="stylesheet" />
+    <script src="./main.js" defer></script>
   </head>
   <body>
-    colorFlip will be mading.
+    <div id="tapBar">
+      <div class="active" onclick="changeMode()">Color Filpper</div>
+      <div onclick="changeMode()">Simple Hex</div>
+    </div>
+    <div id="mainCotainer">
+      <div></div>
+      <button onclick="changeColor()">CLICK ME</button>
+    </div>
   </body>
 </html>
